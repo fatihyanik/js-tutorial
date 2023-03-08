@@ -11,7 +11,7 @@ console.log(o);
 
 // reserved words are allowed (but not recommended) as property names
 const resObj = {
-    let: 1, 
+    let: 1,
     const: 2,
     return: 3
 }
@@ -68,7 +68,7 @@ for (let key in car) {
     console.log(key); // does not log price
 }
 
-// the prop's of built-in objects, such as the Math, are non-enumerable
+// the prop's of built-in objects, such as the Math object, are non-enumerable
 // non-enumerable prop's are ignored by for/in loops
 for (let key in Math) {
     console.log(key); // nothing is logged to the console
