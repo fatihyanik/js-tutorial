@@ -97,3 +97,5 @@ if (aleezaAveScore > lizAveScore && aleezaAveScore > maryAveScore) {
 } else {
 	console.log(`it's a draw! ${aleezaAveScore} : ${lizAveScore} : ${maryAveScore}`);
 }
+
+
