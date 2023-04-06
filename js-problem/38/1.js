@@ -43,3 +43,15 @@ function DNAtoRNA(dna) {
   const str5="AAAA"
 
 console.log(str5.replace("A", "B"));
+
+function sumDigits(number) {
+    // const numberStr = (number < 0 ? -number : number).toString();
+    // const numberStr = (number < 0 ? number * -1 : number ).toString();
+    const numberStr = Math.abs(number).toString();
+    let result = 0;
+    for(let i = 0; i < numberStr.length ; i++){
+    result = result+ parseInt(numberStr[i])
+    }
+    return result
+    }
+
